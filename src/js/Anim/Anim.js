@@ -15,9 +15,9 @@ const Anim = () => {
             <div className='w50'>
                 <div className='program-img'>
                     <div className='glitch_wrap'>
-                        <img src='./dist/assets/images/img1.png' alt='' className='glitch glitch-1'/>
-                        <img src='./dist/assets/images/img1.png' alt='' className='glitch glitch-2'/>
-                        <img src='./dist/assets/images/img1.png' alt='' className='glitch glitch-3'/>
+                        <img src='./assets/images/img1.png' alt='' className='glitch glitch-1'/>
+                        <img src='./assets/images/img1.png' alt='' className='glitch glitch-2'/>
+                        <img src='./assets/images/img1.png' alt='' className='glitch glitch-3'/>
                     </div>
                 </div>
             </div>
