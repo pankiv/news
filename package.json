@@ -12,6 +12,7 @@
     "url": "https://github.com/KevinPy/Iceberg/issues"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.2",
     "babel-loader": "^7.0.0",
@@ -24,22 +25,33 @@
     "eslint-plugin-react": "^6.10.3",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
+    "firebase": "^4.4.0",
+    "gsap": "^1.20.3",
     "html-webpack-plugin": "^2.28.0",
+    "jquery": "^3.2.1",
     "node-sass": "^4.5.2",
+    "prop-types": "^15.6.0",
     "react": "^15.5.4",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-bootstrap": "^0.31.3",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.1.1",
     "resolve-url-loader": "^2.0.2",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.16.1",
     "webpack": "^2.4.1",
-    "webpack-dev-server": "^2.4.2"
+    "webpack-dev-server": "^2.4.2",
+    "whatwg-fetch": "^2.0.3"
   },
   "scripts": {
     "build": "webpack -p",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "babel-plugin-es6-promise": "^1.1.1",
+    "gh-pages": "^1.0.0",
     "webpack": "^2.4.1"
-  }
+  },
+  "homepage": "https://pankiv.github.io/news"
 }

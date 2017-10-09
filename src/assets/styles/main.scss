@@ -1,3 +1,131 @@
-@import "_normalize.scss";
 @import "_variables.scss";
-@import "_reset.scss";
+@import "anim.scss";
+
+.pt50 {
+  padding-top: 100px;
+}
+
+
+
+.delete.red {
+  background-color: red;
+  color: #fff;
+}
+
+.ol {
+  padding-left: 0;
+  li {
+    padding: 10px 10px 10px 40px;
+    width: 250px;
+    border: 1px solid #eee;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
+.completed {
+  color: orangered;
+}
+
+
+.todo-list {
+  margin-bottom: 30px;
+}
+
+form {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+
+.btn_span span {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px;
+  margin-right: 10px;
+  background-color: rgba(0,0,0,.73);
+}
+
+.todo {
+  margin-bottom: 20px;
+  .btn_span {
+    span {
+      color: #fff;
+    }
+  }
+  &.checked {
+    .btn_span {
+      span {
+        background-color: rgba(0,0,0,.3);
+        color: #333;
+      }
+    }
+    button,
+    span {
+      text-decoration: line-through;
+    }
+  }
+}
+
+
+
+table th {
+  text-align: left;
+}
+
+.add_todo {
+  margin-left: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #747474;
+  margin-bottom: 20px;
+}
+
+
+
+
+//react anim
+
+
+.slide-enter {
+  transform: translateX(-100%);
+}
+
+
+.slide-enter.slide-enter-active {
+  transform: translateX(0);
+  transition: all 500ms;
+}
+
+
+
+.slide-leave {
+  transform: translateX(0%);
+}
+
+
+.slide-leave.slide-leave-active {
+  opacity: 0.1;
+  transition: all 700ms;
+}
+
+
+.svg_bg {
+  padding: 2% 15px;
+  background-color: #000234;
+  svg {
+    padding-top: 17px;
+    width: 200px;
+  }
+}
+
+
+.galleryItem {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
