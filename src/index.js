@@ -33,7 +33,7 @@ firebaseApp.auth().onAuthStateChanged(user => {
 
 
 ReactDOM.render(
-  <Router history={browserHistory}>
+  <Router history={browserHistory} basename='/news/' >
       <div>
 
           <ul>
